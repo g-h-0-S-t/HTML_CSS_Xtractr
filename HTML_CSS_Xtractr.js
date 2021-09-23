@@ -157,20 +157,22 @@ javascript:
 	#elementsExtracted,
 	#elementID,
 	#elementClasses {
-		font-family: monospace;
-		font-size: 15px;
+		font-family: monospace !important;
+		font-size: 15px !important;
 		height: 25px !important;
 		width: calc(100% - 22px) !important;
-		padding: 0 11px;
+		padding: 0 11px !important;
+		color: #000 !important;
 	}
 	#elementStructure,
 	#log {
-		font-family: monospace;
-		font-size: 15px;
+		font-family: monospace !important;
+		font-size: 15px !important;
 		height : 100px !important;
 		width : calc(100% - 22px) !important;
-		padding: 0 11px;
+		padding: 0 11px !important;
 		overflow : auto !important;
+		color: #000 !important;
 	}
 	/** html_css_xtractr styles (end) **/
 	`;
