@@ -35,7 +35,7 @@ javascript:
 	var winhtml_css_xtractr = window.html_css_xtractr;
 	winhtml_css_xtractr.config = {
 		html_css_xtractr_zIndex: 9999,
-		html_css_xtractr_Height: 514,
+		html_css_xtractr_Height: 534,
 		html_css_xtractr_Width: 350,
 		extractorTimer: 1,
 		extractorIndicatorWidth: 3
@@ -106,6 +106,11 @@ javascript:
 	winhtml_css_xtractr.style.className = 'html_css_xtractrClass';
 	winhtml_css_xtractr.style.textContent = `
 	/** html_css_xtractr styles (start) **/
+	#html_css_xtractrWrapper,
+	#html_css_xtractrWrapper * {
+		font-family: monospace !important;
+		font-size: 15px !important;
+	}
 	.html_css_xtractrFocus:not(.html_css_xtractrClass) {
 		outline : ` + winhtml_css_xtractr.config.extractorIndicatorWidth + `px dashed pink !important;
 	}
@@ -157,22 +162,20 @@ javascript:
 	#elementsExtracted,
 	#elementID,
 	#elementClasses {
-		font-family: monospace !important;
-		font-size: 15px !important;
 		height: 25px !important;
 		width: calc(100% - 22px) !important;
 		padding: 0 11px !important;
 		color: #000 !important;
+		margin-bottom: 0.5rem !important;
 	}
 	#elementStructure,
 	#log {
-		font-family: monospace !important;
-		font-size: 15px !important;
 		height : 100px !important;
 		width : calc(100% - 22px) !important;
 		padding: 0 11px !important;
 		overflow : auto !important;
 		color: #000 !important;
+		margin-bottom: 0.5rem !important;
 	}
 	/** html_css_xtractr styles (end) **/
 	`;
