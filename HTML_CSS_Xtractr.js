@@ -35,7 +35,7 @@ javascript:
 	var winhtml_css_xtractr = window.html_css_xtractr;
 	winhtml_css_xtractr.config = {
 		html_css_xtractr_zIndex: 9999,
-		html_css_xtractr_Height: 534,
+		html_css_xtractr_Height: 634,
 		html_css_xtractr_Width: 350,
 		extractorTimer: 1,
 		extractorIndicatorWidth: 3
@@ -110,6 +110,7 @@ javascript:
 	#html_css_xtractrWrapper * {
 		font-family: monospace !important;
 		font-size: 15px !important;
+		line-height: 1.5rem !important;
 	}
 	.html_css_xtractrFocus:not(.html_css_xtractrClass) {
 		outline : ` + winhtml_css_xtractr.config.extractorIndicatorWidth + `px dashed pink !important;
@@ -147,10 +148,6 @@ javascript:
 		vertical-align: top !important;
 		padding: 1rem !important;
 		width: calc(100% - 2*(1rem)) !important;
-	}
-	br.html_css_xtractrClass {
-		display: block !important;
-		line-height: 1.5rem !important;
 	}
 	#elementsExtractedLabel,
 	#elementStructureLabel,
