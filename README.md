@@ -6,7 +6,7 @@ The tool provides you a form that you can drag around and has fields that popula
 
 You can copy the values from the form fields and use it in your development.
 
-**Usage :** Copy - Paste the code from the JS file into the browser console and hit enter or save it as a bookmark and click on it when on a webpage. 
+**Usage :** Copy - Paste the code from the **HTML_CSS_Xtractr.js** file into the browser console and hit enter or save it as a bookmark and click on it when on a webpage. 
 
 **Screenshot :** 
 
